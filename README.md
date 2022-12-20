@@ -24,7 +24,7 @@ The following data is being extracted and saved into a `csv` spreadsheet:
 - Product categories (the sub-fields in which they operate)
 - Description (a company's profile description) 
 
-<img src="https://github.com/dossma/camx/blob/main/camx_table_preview_blurred.jpg" width=90% height=90%>
+<img src="https://github.com/dossma/camx/blob/main/camx_table_preview_blurred_50p.jpg" width=100% height=100%>
 
 ## Get started
 After the development setup has been established (see below), just run it.
