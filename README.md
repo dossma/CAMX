@@ -2,7 +2,7 @@
 Scraping exhibitors from camx 2022 (The Composites and Advanced Materials Expo).
 
 ## Disclaimer
-This is for educational purpose only.
+This is for educational purpose only. I won't be responsible for any misuse.
 
 ## Motivation
 Get a better, structured overview or do analysis on where the companies operate and in which fields.
