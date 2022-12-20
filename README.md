@@ -1,4 +1,4 @@
-# camx
+# CAMX
 Scraping exhibitors from camx 2022 (The Composites and Advanced Materials Expo).
 
 ## Disclaimer
