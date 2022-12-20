@@ -14,12 +14,14 @@ headers = "Firmenname, Website, Adresse, Phone/Fax, Kategorien, Beschreibung, \n
 loopfile = "camx_dir_urls.txt"
 
 waittimefrom_main, waittimeto_main = 10, 20  # Vorgabe der Wartezeit zwischen ... Sekunden und ... Sekunden
-waittimefrom_card, waittimeto_card = 8, 15  # Vorgabe der Wartezeit zwischen ... Sekunden und ... Sekunden
+waittimefrom_card, waittimeto_card = 3, 8  # Vorgabe der Wartezeit zwischen ... Sekunden und ... Sekunden
+
 
 # PROFILEINSTELLUNGEN BEGINN
+# loc_adblock = 'uBlock0_1.45.3rc5.firefox.signed.xpi'  # Ad-block file path
 opts = Options()
 opts.set_preference("javascript.enabled", True)  # Javascript deaktivieren
-opts.set_preference("permissions.default.image", 2,)loc_adblock = 'uBlock0_1.45.3rc5.firefox.signed.xpi'  # Ad-block file path
+opts.set_preference("permissions.default.image", 2,)
 opts.set_preference("plugin.state.flash", 0)  # Flash deaktivieren
 opts.set_preference("toolkit.telemetry.unified", False)  # Telemetrie deaktivieren
 opts.page_load_strategy = 'normal'  # DOM ready, but not yet images
@@ -61,7 +63,6 @@ with open(loopfile, encoding='utf-8', errors='replace') as linkfile:
                 print(e)
                 firmenname = ""
                 pass
-
             # Adresse
             try:
                 # addr = driver_card.find_element(by=By.CLASS_NAME, value="showcase-address  tc")
