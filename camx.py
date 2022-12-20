@@ -14,7 +14,7 @@ headers = "Firmenname, Website, Adresse, Phone/Fax, Kategorien, Beschreibung, \n
 loopfile = "camx_dir_urls.txt"
 
 waittimefrom_main, waittimeto_main = 10, 20  # Vorgabe der Wartezeit zwischen ... Sekunden und ... Sekunden
-waittimefrom_card, waittimeto_card = 3, 8  # Vorgabe der Wartezeit zwischen ... Sekunden und ... Sekunden
+waittimefrom_card, waittimeto_card = 8, 15  # Vorgabe der Wartezeit zwischen ... Sekunden und ... Sekunden
 
 # PROFILEINSTELLUNGEN
 loc_adblock = 'uBlock0_1.45.3rc5.firefox.signed.xpi'  # Ad-block file path
