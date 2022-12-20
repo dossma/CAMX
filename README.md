@@ -6,7 +6,6 @@ This is for educational purpose only.
 
 ## Motivation
 Get a better, structured overview or do analysis on where the companies operate and in which fields.
-Do data engineering on companies from the composite and advanced materials sector.
 
 ## Procedure
 The following data is being extracted:
