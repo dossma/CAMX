@@ -7,7 +7,15 @@ This is for educational purpose only.
 ## Motivation
 Get a better, structured overview or do analysis on where the companies operate and in which fields.
 
-## Procedure
+## Procedure and result
+
+The webdriver runs headless, which means the browser will actually not be visible. 
+A couple of useful settings have been set:
+- `"javascript.enabled", True`  It is here required that Javascript is enabled.
+- `"permissions.default.image", 2,` No images will be loaded.
+- `"plugin.state.flash", 0` Flash is deactivated.
+- `"toolkit.telemetry.unified", False` Telemetry is deactivated.
+
 The following data is being extracted:
 - Company name
 - Homepage URL
