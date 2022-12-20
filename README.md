@@ -16,7 +16,7 @@ A couple of useful settings have been set:
 - `"plugin.state.flash", 0` Flash is deactivated.
 - `"toolkit.telemetry.unified", False` Telemetry is deactivated.
 
-The following data is being extracted:
+The following data is being extracted and saved into a `csv` spreadsheet:
 - Company name
 - Homepage URL
 - Address
