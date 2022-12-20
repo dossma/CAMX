@@ -13,7 +13,7 @@ The webdriver runs headless, which means the browser will actually not be visibl
 A couple of useful settings have been set:
 - `"javascript.enabled", True`  It is here required that Javascript is enabled.
 - `"permissions.default.image", 2,` No images will be loaded.
-- `"plugin.state.flash", 0` Flash is deactivated.
+- `"plugin.state.flash", 0` Flash is set deactivated.
 - `"toolkit.telemetry.unified", False` Telemetry is deactivated.
 
 The following data is being extracted and saved into a `csv` spreadsheet:
