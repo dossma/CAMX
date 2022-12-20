@@ -16,13 +16,10 @@ loopfile = "camx_dir_urls.txt"
 waittimefrom_main, waittimeto_main = 10, 20  # Vorgabe der Wartezeit zwischen ... Sekunden und ... Sekunden
 waittimefrom_card, waittimeto_card = 8, 15  # Vorgabe der Wartezeit zwischen ... Sekunden und ... Sekunden
 
-# PROFILEINSTELLUNGEN
-loc_adblock = 'uBlock0_1.45.3rc5.firefox.signed.xpi'  # Ad-block file path
-opts = Options()
-
 # PROFILEINSTELLUNGEN BEGINN
+opts = Options()
 opts.set_preference("javascript.enabled", True)  # Javascript deaktivieren
-opts.set_preference("permissions.default.image", 2,)
+opts.set_preference("permissions.default.image", 2,)loc_adblock = 'uBlock0_1.45.3rc5.firefox.signed.xpi'  # Ad-block file path
 opts.set_preference("plugin.state.flash", 0)  # Flash deaktivieren
 opts.set_preference("toolkit.telemetry.unified", False)  # Telemetrie deaktivieren
 opts.page_load_strategy = 'normal'  # DOM ready, but not yet images
