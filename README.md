@@ -25,7 +25,7 @@ The following data is being extracted and saved into a `csv` spreadsheet:
 - Description (a company's profile description) 
 
 <img src="https://github.com/dossma/scrape-CAMX/blob/main/camx_snapshot.jpg" width=100% height=100%>
-<img src="" width=100% height=100%>
+<img src="https://github.com/dossma/scrape-CAMX/blob/main/Gmaps%20screenshot%20w%20profile.jpg" width=100% height=100%>
 
 ## Get started
 After the development setup has been established (see below), just run it.
