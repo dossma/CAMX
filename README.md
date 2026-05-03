@@ -4,6 +4,11 @@ Scraping exhibitors from camx 2022 (The Composites and Advanced Materials Expo).
 ## Motivation
 Get a better, structured overview or do analysis on where the companies operate and in which fields.
 
+## Disclaimer
+<!-- The Terms of Service of the data source do not prohibit extraction and the data is publicly available. -->
+The data is publicly available and no terms of service could be found, therefore extraction is deemed permitted.  
+Use this code only in an ethical way and without violating the law. 
+
 ## Procedure and result
 
 The webdriver runs headless, which means the browser will actually not be visible. 
